@@ -7,6 +7,8 @@ f = document.getElementById("home");
 var mySound = document.getElementById('cracking');
 var mySound1 = document.getElementById('scrat');
 
+function nextPage(el){
+	document.location.href = "https://mellamocasamundo.github.io/Phase-8/";
 
 function nextThirdImage(el){
 	if (el.src.match("image/ice.png") && b.src.match("image/dirt.png") && c.src.match("image/dirt.png")){
