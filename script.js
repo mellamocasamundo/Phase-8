@@ -8,7 +8,7 @@ var mySound = document.getElementById('cracking');
 var mySound1 = document.getElementById('scrat');
 
 function nextPage(el){
-	document.location.href = "https://mellamocasamundo.github.io/Phase-8/";
+	document.location.href = "index2.html";
 }
 
 function nextThirdImage(el){
