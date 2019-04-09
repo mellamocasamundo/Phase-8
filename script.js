@@ -8,7 +8,8 @@ var mySound = document.getElementById('cracking');
 var mySound1 = document.getElementById('scrat');
 
 function nextPage(el){
-	document.location.href = "index2.html";
+	if (el.src.match("image/dirt.png") && b.src.match("image/dirt.png") && c.src.match("image/dirt.png")){
+		document.location.href = "index2.html";
 }
 
 function nextThirdImage(el){
